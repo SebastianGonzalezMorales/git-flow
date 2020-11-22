@@ -12,6 +12,9 @@ function App() {
         Versión del programa : {version}
         </p>
         <p>
+        Supongamos que puedes tocar la ropa y cambiar tu música   
+        </p>
+        <p>
         Para la U de Valpo!
         </p>
       </header>
