@@ -12,6 +12,13 @@ pool:
 # Git version es un componente instalable para azure devops, debe instalarse para que funcione
 
 steps:
+
+  - task: NodeTool@0    
+    inputs:
+      versionSpec: "12.x"
+      
+    displayName: "Install Node.js"
+    
   #Configuración de git version(encargada de generar la versión de acuerdo a la rama)
   - task: gitversion/setup@0
     inputs:
