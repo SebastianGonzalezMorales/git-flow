@@ -38,7 +38,7 @@ steps:
     
     inputs:
       command: "custom"
-      customCommand: "--no-git-tag-version version $(GitVersion.MajorMinorPatch)"
+      customCommand: "--no-git-tag-version version $(MajorMinorPatch)$(PreReleaseTagWithDash)"
     displayName: "actualizando package.json"
 
 
