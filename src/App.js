@@ -17,9 +17,11 @@ function App() {
         <p>
         Para la U de Valpo!
         </p>
+        <span> New version, other commit </span>
       </header>
     </div>
   );
 }
 
 export default App;
+ 
