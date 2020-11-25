@@ -8,13 +8,9 @@ pool:
   vmImage: "ubuntu-latest"
 
 steps:
- 
-  - task: NodeTool@0    
-    inputs:
-      versionSpec: "12.x"
-      
-    displayName: "Install Node.js"
 
+ 
+    
   - task: gitversion/setup@0
     inputs:
       versionSpec: '5.1'
@@ -36,8 +32,10 @@ steps:
   - task: Npm@1      
     inputs:
       command: "custom"
-      customCommand: "--no-git-tag-version version $(MajorMinorPatch)$(PreReleaseTagWithDash)"
+      customCommand: "--no-git-tag-version version $(MajorMinorPatch)"
     displayName: "actualizando package.json"
+
+ 
       
   - task: CmdLine@2
     inputs:
@@ -50,6 +48,8 @@ steps:
       customCommand: 'run build'
     displayName: "build"
 
+ 
+  
   - task: CopyFiles@2
     inputs:
       sourceFolder: "build"
