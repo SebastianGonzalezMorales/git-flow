@@ -12,13 +12,11 @@ pool:
 
 steps:
 
-
   - task: NodeTool@0    
     inputs:
       versionSpec: "12.x"
       
     displayName: "Install Node.js"
-
 
   # configuracion de git version (encargada de generar la versión de acuerdo a la rama)
   - task: gitversion/setup@0
@@ -53,8 +51,6 @@ steps:
       customCommand: 'run build'
     displayName: "build"
 
- 
-  
   - task: CopyFiles@2
     inputs:
       sourceFolder: "build"

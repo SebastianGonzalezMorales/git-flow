@@ -15,11 +15,14 @@ function App() {
         Supongamos que puedes tocar la ropa y cambiar tu música   
         </p>
         <p>
-        Para la U de Valpo!
+        Para la Universidad de Valparaiso
         </p>
+        <span> New version </span>
+        <span> commit </span>
       </header>
     </div>
   );
 }
 
 export default App;
+ 
