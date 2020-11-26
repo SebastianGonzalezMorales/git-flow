@@ -18,7 +18,7 @@ function App() {
         Para la Universidad de Valparaiso
         </p>
         <span> New version </span>
-        <span> Other  commit </span>
+        <span> commit </span>
       </header>
     </div>
   );
