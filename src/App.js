@@ -18,6 +18,7 @@ function App() {
         Para la U de Valpo!
         </p>
         <span> New version, other  commit </span>
+        <span> Other  commit </span>
       </header>
     </div>
   );
