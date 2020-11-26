@@ -15,9 +15,9 @@ function App() {
         Supongamos que puedes tocar la ropa y cambiar tu música   
         </p>
         <p>
-        Para la U de Valpo!
+        Para la Universidad de Valparaiso
         </p>
-        <span> New version, other  commit </span>
+        <span> New version </span>
         <span> Other  commit </span>
       </header>
     </div>
